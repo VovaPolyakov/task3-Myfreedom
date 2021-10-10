@@ -179,7 +179,9 @@
 //  умножает x на себя n раз и возвращает результат (!!! решить без оператора **)
 
 // function pow(x, n) {
-//     x = x ** n;
+//     for (let i = 0; i < n; i++) {
+//         x *= x
+//     }
 //     return x;
 // };
 
@@ -190,7 +192,7 @@
 // является ли число целым, и возвращает true либо false.
 
 // function isInteger(x) {
-//     if (x ^ 2 == 0) {
+//     if (x % 1 == 0) {
 //         return true;
 //     } else {
 //         return false
@@ -210,7 +212,7 @@
 
 // function sum(n) {
 //     for (let i = 0; i < n; i = i + 0.5) {
-//         if (i ^ 0 == 0) {
+//         if (i % 1 == 0) {
 //             console.log(i, ' integer');
 //         } else {
 //             console.log(i, ' decimal')
